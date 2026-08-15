@@ -1,0 +1,43 @@
+:root {
+  --ifm-color-primary: #0f766e;
+  --ifm-color-primary-dark: #0d6a63;
+  --ifm-color-primary-darker: #0c605a;
+  --ifm-color-primary-darkest: #094d48;
+  --ifm-color-primary-light: #168b82;
+  --ifm-color-primary-lighter: #2aa79c;
+  --ifm-color-primary-lightest: #54c2b6;
+  --ifm-font-family-base: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ifm-heading-font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ifm-code-font-size: 92%;
+  --ifm-container-width-xl: 1180px;
+  --ifm-navbar-height: 4rem;
+  --docusaurus-highlighted-code-line-bg: rgba(15, 118, 110, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5eead4;
+  --ifm-color-primary-dark: #3edbc9;
+  --ifm-color-primary-darker: #2bd5c2;
+  --ifm-color-primary-darkest: #16b8a7;
+  --ifm-color-primary-light: #7cefe0;
+  --ifm-color-primary-lighter: #9af4e8;
+  --ifm-color-primary-lightest: #b9f8ef;
+  --docusaurus-highlighted-code-line-bg: rgba(94, 234, 212, 0.12);
+}
+
+.theme-doc-markdown h1 {
+  letter-spacing: 0;
+}
+
+.theme-doc-markdown h2,
+.theme-doc-markdown h3 {
+  letter-spacing: 0;
+}
+
+.navbar__title {
+  font-weight: 700;
+}
+
+.menu__link {
+  font-size: 0.94rem;
+}
